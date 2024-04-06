@@ -1,0 +1,410 @@
+
+*{
+    font-family: "Merriweather", serif;
+    font-family: "Inter", serif;
+}
+
+/* banner styles */
+
+.banner {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url('../images/Banner\ Image.png');
+}
+
+.linear-gradient {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+.text-1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 177px;
+}
+
+.text-2 {
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    margin: auto;
+    top: 233px;
+    bottom: 177px;
+    left: 344px;
+}
+
+/* main related styles */
+.container {
+    /* width: 802.9px; */
+    /* height: 806px; */
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.container-h2 {
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.container-h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container-h3 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* welcome section styles */
+.welcome {
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url('../images/Vectorrr.png');
+}
+
+.wlc-l-g {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+.wlc-title {
+    color: rgb(255, 255, 255);
+    width: 642px;
+    height: 176px;
+    font-size: 64px;
+    font-weight: 900;
+    padding: 80px 0 0 100px;
+}
+
+.wlc-description p {
+    color: rgba(255, 255, 255, 0.8);
+    width: 697px;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.wlc-btn {
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+/* contact banner styles */
+.contact-banner {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    padding-top: 100px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h4 {
+    color: rgb(7, 2, 17);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+
+.group-color {
+    color: rgb(255, 0, 0);
+}
+
+.btn-primary {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 16px;
+    border: 0;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px;
+}
+
+/* profile section styles */
+.profile-banner {
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    gap: 70px;
+}
+
+.first-content {
+    width: 390px;
+    height: 255px;
+    margin-top: 50px;
+}
+
+.title-1 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.title-2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.profile-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 100%;
+    background-image: url('../images/Ellipse\ 1.png');
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.second-content {
+    width: 276px;
+    margin-top: 112px;
+}
+
+.pf-year {
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* holiday related styles */
+.holiday-content {
+    width: 800px;
+    height: 260px;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.small-title {
+    color: rgb(7, 2, 17);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.large-title {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#Holidays-color {
+    color: rgb(255, 0, 0);
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* gift related styles */
+
+.gift-images{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* height: 600px; */
+    display: flex;
+}
+.discount{
+    position: relative;
+    left: 100px;
+}
+
+
+/* gift content related styles */
+.gift-section {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.gift-content {
+    width: 566px;
+}
+
+.gift-section .gift-content h4 {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-section .gift-content h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.gift-section .gift-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* images cards related styles*/
+.images-cards {
+    width: 1320px;
+    /* height: 800px; */
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+/* email section styles */
+.email-section {
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.email-content {
+    text-align: center;
+    width: 512px;
+    padding: 80px 404px 0 404px;
+}
+
+.email-section .email-content h2 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.email-section .email-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* form section styles */
+.form-section {
+    text-align: center;
+}
+
+.form-section input {
+    width: 300px;
+    padding: 10px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px 0 0 50px;
+    background: rgb(255, 255, 255);
+    outline: 0;
+    border: 0;
+}
+
+.form-section button {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+}
+
+/* footer related styles */
+footer {
+    width: 100%;
+    height: 609px;
+    margin-top: 120px;
+    background: rgb(7, 2, 17);
+}
+
+.foot-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    color: #fff;
+}
+
+.foot-description ul>li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.foot-contact ul>li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#num-icon {
+    list-style-image: url('../images/Call.png');
+}
+
+#link-icon {
+    list-style-image: url('../images/Website.png');
+}
+
+/* footer icons section styles */
+.foot-icons {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.foot-icons img {
+    margin-right: 10px;
+}
+
+/* footer end section styles */
+.foot-end {
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-end h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
